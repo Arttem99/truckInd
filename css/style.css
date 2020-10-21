@@ -302,8 +302,8 @@ ul{
     margin: 0 auto;
     background: url("../pictures/bag.png") no-repeat center center;
     background-size: cover;
-    width: 97%;
-    height: 50%;
+    width: 90%;
+    height: 17vw;
 
 }
 li{
@@ -434,6 +434,12 @@ li{
         font-size: 5vw;
     }
 
+}
+@media screen and (max-width: 565px) {
+.pic-bag{
+    width: 97%;
+    height: 30vw;
+}
 }
 @media screen and (max-width: 480px){
     .pic-bag{
