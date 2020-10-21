@@ -451,8 +451,8 @@ li{
 }
 @media screen and (max-width: 480px){
     .pic-bag{
-        width: 95%;
-        height: 40%;
+        width: 98%;
+        height: 29.5vw;
     }
 }
 @media screen and (max-width: 425px){
