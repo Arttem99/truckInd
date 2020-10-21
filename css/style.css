@@ -2,8 +2,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'BalsSans';
+    src: url('../fonts/BalsamiqSans-Regular.ttf');
+    url('../fonts/BalsamiqSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 h1{
-    font-family: Goose;
+    font-family: BalsSans;
 }
 .line-under-blok{
     height: 5px;
@@ -60,7 +67,7 @@ margin: 1%;
     margin-top: 1%;
     font-size: 2vw;
     font-weight: bolder;
-    font-family: Goose;
+    font-family: BalsSans;
 }
 .inf_day{
     margin-top: 1%;
@@ -147,7 +154,7 @@ text-decoration: none;
     font-size: 4vw;
 }
 .item{
-    font-family: Goose;
+    font-family: BalsSans;
 }
 .priceList{
     display: block;
@@ -155,7 +162,7 @@ text-decoration: none;
     margin: 5%;
 }
 .price, .termsPrice{
-    font-size: 1.8vw;
+    font-size: 2vw;
     padding: 2%;
     -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
@@ -350,6 +357,7 @@ li{
 .tel-ip{
     margin: 0 auto;
     font-size: 3vw;
+    padding-top: 3%;
 }
 .tel-ip a{
     width: auto;
