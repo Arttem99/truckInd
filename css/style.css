@@ -3,14 +3,14 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: 'BalsSans';
+    font-family: 'BalsSans', 'Balsamiq Sans';
     src: url('../fonts/BalsamiqSans-Regular.ttf');
     url('../fonts/BalsamiqSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 h1{
-    font-family: BalsSans;
+    font-family: BalsSans, 'Balsamiq Sans';
 }
 .line-under-blok{
     height: 5px;
@@ -67,7 +67,7 @@ margin: 1%;
     margin-top: 1%;
     font-size: 2vw;
     font-weight: bolder;
-    font-family: BalsSans;
+    font-family: BalsSans, 'Balsamiq Sans';
 }
 .inf_day{
     margin-top: 1%;
@@ -154,7 +154,7 @@ text-decoration: none;
     font-size: 4vw;
 }
 .item{
-    font-family: BalsSans;
+    font-family: BalsSans, 'Balsamiq Sans';
 }
 .priceList{
     display: block;
