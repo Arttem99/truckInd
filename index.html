@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Грузоперевозки по Беларуси</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts/all.css">
+    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+    <!--     Header    -->
+    <div class="header">
+        <div class="divName">
+            <h1 class="name"><span id="gryz"><b>Гр</b>узоперевозки</span></h1><h1><span id="bel"> по Беларуси</span></h1>
+        </div>
+        <div class="contacts">
+            <div class="inf_tel">
+                <i class="fa fa-phone-alt" aria-hidden="true"></i>
+                <a href="tel:+375296587036"> +375 (29) 658-70-36</a>
+            </div>
+            <div class="inf_day">
+                <span> <i class="fa fa-clock"></i> Без выходных</span>
+            </div>
+        </div>
+
+        <div class="containerPicture">
+            <div class="road">
+                <div class="roadLine"></div>
+                <div class="car"></div>
+            </div>
+        </div>
+    </div>
+    <!--  end Header  -->
+
+    <div class="line-under-blok"></div>
+
+    <!-- Price -->
+    <div class="item">
+        <div class="headingBlocks">
+            <h1>Наши цены</h1>
+        </div>
+        <div class="priceList">
+            <div class="in-city">
+                <div class="price">от <b class="money">17</b> <span>BYN</span></div>
+                <div class="termsPrice">За час работы в Минске</div>
+
+            </div>
+            <div class="under-city">
+                <div class="price mb-4">от <b class="money">0,5</b> <span>BYN</span></div>
+                <div class="termsPrice mb-4">За 1 км работы за МКАД</div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Price -->
+
+    <div class="line-under-blok"></div>
+
+<!--Div Transport-->
+    <div class="item">
+        <div class="containerTrans">
+            <div class="headingBlocks">
+                <h1>Наш транспорт</h1>
+            </div>
+            <div class="info-transport">
+                    <div class="our-car"></div>
+                <div class="info-car">
+                    <div class="mass-car">
+                        <p>Грузоподъемность 2 тонны</p>
+                    </div>
+                    <div class="name-car">
+                        <p>Mercedes Sprinter</p>
+                    </div>
+
+                </div>
+            </div>
+            <br>
+            <div class="full-description-car">
+                <ul>
+                    <li>Длина кузова <span class="valueDesc">3,30</span> метра </li>
+                    <li>Цельнометаллический фургон</li>
+                    <li>Ширина <span class="valueDesc">1,70</span> метра </li>
+                    <li>Высота <span class="valueDesc">1,80</span> метра </li>
+                </ul>
+            </div>
+            <br>
+        </div>
+    </div>
+<!--  end Div Transport  -->
+
+    <div class="line-under-blok"></div>
+
+<!-- Service -->
+    <div class="item">
+        <div class="wall-color">
+            <div class="headingBlocks">
+                <h1><b>У</b>слуги</h1>
+            </div>
+            <div class="list-services">
+                <div class="service"><p>Работаем с ТТН</p> <i class="fas fa-file-alt icon-color"></i></div>
+                <div class="service cht"><p>Доставка по времени</p><i class="fas fa-stopwatch icon-color"></i></div>
+                <div class="service"><p>Срочная доставка</p><i class="fas fa-shipping-fast icon-color"></i></div>
+                <div class="service cht"><p>Погрузка / Разгрузка</p><i class="fas fa-truck-loading icon-color"></i></div>
+            </div>
+            <br>
+        </div>
+    </div>
+<!-- end Service-->
+
+    <div class="line-under-blok"></div>
+
+<!--  div Oppotunie Sale  -->
+    <div class="item">
+        <div class="wall-not-color">
+            <div class="headingBlocks">
+                <h1>Возможность приобрести</h1>
+            </div>
+            <div class="container-opp">
+                <div class="list-opportunities">
+                    <ul>
+                        <li><h4>Песок (<span class="money-x2">2 BYN</span>)</h4></li>
+                        <li><h4>Песок плывун (<span class="money-x2">2 BYN</span>)</h4></li>
+                        <li><h4>Гравий (<span class="money-x2">2,5 BYN</span>)</h4></li>
+                        <li><h4>Щебень гравийный (<span class="money-x2">3,5 BYN</span>)</h4></li>
+                        <li><h4>Торф (<span class="money-x2">3,5 BYN</span>)</h4></li>
+                        <li><h4>Грунт (<span class="money-x2">3,5 BYN</span>)</h4></li>
+                        <li><h4>Асфальтная крошка (<span class="money-x2">3,5 BYN</span>)</h4></li>
+                        <li><h4>Щебень гранитный (<span class="money-x2">5 BYN</span>)</h4></li>
+                        <li><h4>Торфогрунт (<span class="money-x2">6 BYN</span>)</h4></li>
+                    </ul>
+                </div>
+                <div class="delivery-method">
+                    <div class="info-dost"><p>Доставка в мешках</p></div>
+                    <div class="pic-bag"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  end div oppotunies Sale  -->
+
+    <div class="line-under-blok"></div>
+
+<!--type Payment-->
+    <div class="item">
+        <div class="headingBlocks">
+            <h1>Способ оплаты</h1>
+        </div>
+        <div class="list-payment">
+            <ul class="pay-list">
+                <li>Наличный расчет</li>
+                <li>Без наличный расчет</li>
+            </ul>
+        </div>
+        <br>
+    </div>
+    <!-- end type Payment-->
+
+    <div class="line-under-blok"></div>
+
+    <!--Contacts-->
+    <div class="item">
+        <div class="wall-not-color">
+            <div class="description">
+                <div class="footer-contacts">
+                    <div class="tel-ip">
+                        <i class="fa fa-phone-alt" aria-hidden="true"></i>
+                        <a href="tel:+375296587036"> +375 (29) 658-70-36</a>
+                    </div>
+                </div>
+                <div class="info-for-ip">
+                    <div><p>Индивидуальный предприниматель</p></div>
+                    <div class="name-ip"><p>Руденков Алексей Игоревич</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end Contacts-->
+
+</div>
+
+</body>
+<script src="fonts/all.js"> </script>
+</html>
